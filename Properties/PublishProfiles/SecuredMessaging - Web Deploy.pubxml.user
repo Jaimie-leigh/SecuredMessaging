@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeek6IKudbk61IlPJ/JFDFAAAAAACAAAAAAAQZgAAAAEAACAAAADuNqJmw6XnTPnngHsWwyRDX8efGbblrFDqZzTVuIGDQAAAAAAOgAAAAAIAACAAAADGLJR1j/le1hG6pIMWGCGZW9i8nM2Ke+zQrHGDx8qm0IAAAABJEOivpoQ1PYs9LxdTucuHv1/zt8uBZXEPISgCyBwyG7rowJYPTOxyJlRgwM7mPHXEMcQbKLvp3aXpSsxXA8l4PLcZa7f/ko/lMCYNh/tva3+jOtVEBHMkqTw+Vx23GFk6hvUPmCktA0RTeGS/LcrZOZFt7FO3e1qWd9E/ZPXRekAAAABojEyexB/+ASSGgAgPHrv/+Larf1mzkHN01yIZbB40Dr0Cegnc6Rks6JCZIjfd8mvLlJ+gdv/bMMI4RNKGUCtA</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=tcp:devprojectdatabaseserver.database.windows.net,1433;Initial Catalog=SecuredMessagingDatabase;User Id=Jfirth@devprojectdatabaseserver.database.windows.net;Password=Kizzy1993*" />
+    <AzureDBConnectionStrings Include="Data Source=tcp:devprojectdatabaseserver.database.windows.net,1433;Initial Catalog=SecuredMessagingDatabase;User Id=Jfirth@devprojectdatabaseserver;Password=Kizzy1993*" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMWebAPI", "SMWebAPI.csproj", "{F3C16C92-A6AD-43E0-AF64-59700957399E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C16C92-A6AD-43E0-AF64-59700957399E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C16C92-A6AD-43E0-AF64-59700957399E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C16C92-A6AD-43E0-AF64-59700957399E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C16C92-A6AD-43E0-AF64-59700957399E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39792C4D-BA91-4AAF-8B23-3B21E7CF7E87}
+	EndGlobalSection
+EndGlobal
