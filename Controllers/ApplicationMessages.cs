@@ -42,7 +42,7 @@ namespace SMWebAPI.Controllers
             return allAppAndMessage;
         }
 
-        HttpGet("{rollNumber}")]
+        [HttpGet("{rollNumber}")]
         public async Task<ActionResult<ApplicationMessages>> GetApplicationMessagesAsync(int rollNumber)
         {
             var messSubject = await _context.Message_Subject.Where(a => a.RollNumber == rollNumber)
