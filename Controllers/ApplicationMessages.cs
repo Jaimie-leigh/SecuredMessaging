@@ -28,8 +28,21 @@ namespace SMWebAPI.Controllers
 
         }
 
+        //Get ALL messages regardless of broker (used for colleague UI) 
+        [HttpGet]
+        public async Task<ActionResult<ApplicationMessages>> GetApplicationMessagesAsync()
+        {
+            var messSubject = await _context.Message_Subject
+                                    .Include(m => m.Message_Chain)
+                                    .ToListAsync();
 
-        [HttpGet("{rollNumber}")]
+            ApplicationMessages allAppAndMessage = new ApplicationMessages();
+            allAppAndMessage.Message_Subjects = messSubject;
+
+            return allAppAndMessage;
+        }
+
+        HttpGet("{rollNumber}")]
         public async Task<ActionResult<ApplicationMessages>> GetApplicationMessagesAsync(int rollNumber)
         {
             var messSubject = await _context.Message_Subject.Where(a => a.RollNumber == rollNumber)
